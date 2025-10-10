@@ -1,4 +1,3 @@
-// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "SDL3/SDL_events.h"
@@ -1279,7 +1278,7 @@ tr("No emulator version was selected.\nThe Version Manager menu will then open.\
 #ifdef Q_OS_WIN
     exeName = "/shadPS4.exe";
 #elif defined(Q_OS_LINUX)
-    exeName = "/shadPS4.AppImage";
+    exeName = "/Shadps4-sdl.AppImage";
 #elif defined(Q_OS_MACOS)
     exeName = "/shadPS4";
 #endif
@@ -1322,7 +1321,7 @@ void MainWindow::RestartEmulator() {
 #ifdef Q_OS_WIN
     exeName = "/shadPS4.exe";
 #elif defined(Q_OS_LINUX)
-    exeName = "/shadPS4.AppImage";
+    exeName = "/Shadps4-sdl.AppImage";
 #elif defined(Q_OS_MACOS)
     exeName = "/shadPS4";
 #endif
