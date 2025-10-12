@@ -1279,7 +1279,6 @@ tr("No emulator version was selected.\nThe Version Manager menu will then open.\
     exeName = "/shadPS4.exe";
 #elif defined(Q_OS_LINUX)
     exeName = "/Shadps4-sdl.AppImage";
-    exeName = "/shadps4";
 #elif defined(Q_OS_MACOS)
     exeName = "/shadPS4";
 #endif
@@ -1323,7 +1322,6 @@ void MainWindow::RestartEmulator() {
     exeName = "/shadPS4.exe";
 #elif defined(Q_OS_LINUX)
     exeName = "/Shadps4-sdl.AppImage";
-    exeName = "/shadps4";
 #elif defined(Q_OS_MACOS)
     exeName = "/shadPS4";
 #endif
